@@ -1,5 +1,10 @@
 package exercise10;
 
+/*
+ * Solicita al usuario un año. Calcula mediante una expresión booleana si el año es bisiesto. 
+ * Muestra el resultado como true o false.
+ */
+
 import java.util.Scanner;
 
 public class Exercise10 {

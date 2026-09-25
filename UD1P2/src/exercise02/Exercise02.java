@@ -1,5 +1,11 @@
 package exercise02;
 
+/*
+ * Diseña una aplicación que pida una cantidad entera de segundos y 
+ * la convierta en horas, minutos y segundos. Para realizar la 
+ * descomposición utiliza los operadores / y %.
+ */
+
 import java.util.Scanner;
 
 public class Exercise02 {

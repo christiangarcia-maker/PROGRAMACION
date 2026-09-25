@@ -1,5 +1,10 @@
 package exercise07;
 
+/*
+ * Utiliza la clase Random para generar y mostrar tres valores: un número entero aleatorio entre 1 y 100, 
+ * un número real aleatorio y un valor booleano aleatorio (true o false).
+ */
+
 import java.util.Random;
 
 public class Exercise07 {

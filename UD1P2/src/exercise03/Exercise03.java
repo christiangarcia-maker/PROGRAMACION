@@ -1,5 +1,10 @@
 package exercise03;
 
+/**
+ * Una tienda aplica un descuento fijo del 15% y, posteriormente, un IVA del 21%. Declara ambos porcentajes como constantes. 
+ * Pide el precio inicial al usuario, calcula el precio final y muéstralo redondeado a dos cifras decimales utilizando Math.round()
+ */
+
 import java.util.Scanner;
 
 public class Exercise03 {

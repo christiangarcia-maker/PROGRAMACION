@@ -1,5 +1,11 @@
 package exercise05;
 
+/*
+ * Escribe un programa que solicite un número real y muestre su valor absoluto y 
+ * su raíz cuadrada utilizando métodos de la clase Math. Prueba el programa con 
+ * diferentes valores positivos.
+ */
+
 import java.util.Scanner;
 
 public class Exercise05 {

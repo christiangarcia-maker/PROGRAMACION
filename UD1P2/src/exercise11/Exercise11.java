@@ -1,5 +1,12 @@
 package exercise11;
 
+/*
+ * Diseña un programa que determine si una persona puede alquilar un vehículo. 
+ * Solicita su edad y dos valores booleanos que indiquen si posee permiso de conducir 
+ * y si tiene una sanción que le impida conducir. Podrá alquilarlo si es mayor de edad, tiene permiso y no tiene dicha sanción. 
+ * Muestra únicamente el resultado booleano.
+ */
+
 import java.util.Scanner;
 
 public class Exercise11 {

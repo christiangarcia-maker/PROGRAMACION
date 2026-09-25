@@ -1,5 +1,11 @@
 package exercise01;
 
+/*
+ * Escribe un programa que solicite al usuario la base y 
+ * la altura de un rectángulo (pueden contener decimales). 
+ * Debe calcular y mostrar su perímetro y su área
+ */
+
 import java.util.Scanner;
 
 public class Exercise01 {

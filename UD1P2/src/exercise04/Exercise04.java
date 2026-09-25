@@ -1,5 +1,10 @@
 package exercise04;
 
+/*
+ * Pide al usuario un número real y muestra: el entero inmediatamente inferior mediante Math.floor(), 
+ * el entero inmediatamente superior mediante Math.ceil() y el entero más cercano mediante Math.round().
+ */
+
 import java.util.Scanner;
 
 public class Exercise04 {

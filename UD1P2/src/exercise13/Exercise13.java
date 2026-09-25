@@ -1,5 +1,10 @@
 package exercise13;
 
+/*
+ * Pide al usuario una cantidad de dinero con decimales. Mediante un cast a int obtén la cantidad de euros enteros. 
+ * A partir de la parte decimal, calcula también los céntimos y redondéalos correctamente.
+ */
+
 import java.util.Scanner;
 
 public class Exercise13 {

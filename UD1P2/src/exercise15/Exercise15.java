@@ -1,5 +1,10 @@
 package exercise15;
 
+/*
+ * Solicita tres números enteros a, b y c. Calcula y muestra el resultado de las expresiones a + b * c y (a + b) * c. 
+ * Comprueba que los resultados pueden ser distintos y explica mediante un comentario en el código el motivo.
+ */
+
 import java.util.Scanner;
 
 public class Exercise15 {

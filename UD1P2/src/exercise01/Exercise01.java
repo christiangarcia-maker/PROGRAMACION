@@ -1,10 +1,23 @@
 package exercise01;
 
+import java.util.Scanner;
+
 public class Exercise01 {
+    public static void main(String[] args) {
+        Scanner pm = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+        System.out.print("Introduce la base: ");
+        double base = pm.nextDouble();
 
-	}
+        System.out.print("Introduce la altura: ");
+        double altura = pm.nextDouble();
 
+        double perimetro = 2 * (base + altura);
+        double area = base * altura;
+
+        System.out.println("Perímetro: " + perimetro);
+        System.out.println("Área: " + area);
+
+        pm.close();
+    }
 }

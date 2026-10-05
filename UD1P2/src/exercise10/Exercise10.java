@@ -14,9 +14,7 @@ public class Exercise10 {
         System.out.print("Introduce un año: ");
         int anio = pm.nextInt();
 
-        boolean bisiesto =
-                (anio % 4 == 0 && anio % 100 != 0)
-                || (anio % 400 == 0);
+        boolean bisiesto = (anio % 4 == 0 && anio % 100 != 0)|| (anio % 400 == 0);
 
         System.out.println(bisiesto);
 

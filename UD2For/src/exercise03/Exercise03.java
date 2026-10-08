@@ -10,16 +10,16 @@ public class Exercise03 {
 
 		Integer numero;
 
-		Integer suma = 0;
+		Double suma = 0.0;
 
-		for (int i = 1; i <= 10; i++) {
+		for (int i = 1; i <= 3; i++) {
 			System.out.println("Introduzca un número: ");
 			numero = pm.nextInt();
 
 			suma += numero;
 		}
 
-		System.out.println("La media es: " + suma / 10);
+		System.out.println("La media es: " + suma / 3);
 
 		pm.close();
 

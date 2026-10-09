@@ -1,4 +1,4 @@
-package exercise03;
+	package exercise03;
 
 import java.util.Scanner;
 
@@ -9,7 +9,6 @@ public class Exercise03 {
 		Scanner pm = new Scanner(System.in);
 
 		Integer numero;
-
 		Double suma = 0.0;
 
 		for (int i = 1; i <= 3; i++) {

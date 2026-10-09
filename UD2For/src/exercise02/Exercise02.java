@@ -9,7 +9,6 @@ public class Exercise02 {
 		Scanner pm = new Scanner(System.in);
 
 		Integer numeroAPedir;
-		
 		Integer contador = 0;
 
 		System.out.println("Introduzca un número: ");

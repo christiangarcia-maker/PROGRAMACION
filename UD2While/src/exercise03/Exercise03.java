@@ -1,26 +1,30 @@
-package exercise01;
+package exercise03;
 
 import java.util.Scanner;
 
-public class Exercise01 {
+public class Exercise03 {
 
 	public static void main(String[] args) {
 
 		Scanner pm = new Scanner(System.in);
 
-		Integer numeroASumar;
 		Integer suma = 0;
+		Integer contador = 0;
+		Double media;
 
 		System.out.println("Introduzca un número: ");
-		numeroASumar = pm.nextInt();
+		Integer numeroASumar = pm.nextInt();
 
 		while (numeroASumar >= 0) {
 			suma += numeroASumar;
+			contador++;
 			System.out.println("Introduzca un número: ");
 			numeroASumar = pm.nextInt();
 		}
 
-		System.out.println("La suma de los números es: " + suma);
+		media = (double) (suma / contador);
+
+		System.out.println("La media de los números es: " + media);
 
 		pm.close();
 
